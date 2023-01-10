@@ -32,7 +32,7 @@ namespace Bloog
                         break;
                     case 2:
 
-                        for (int i = 0; i<Bloglista.Count; i++)
+                        for (int i = 0; i < Bloglista.Count; i++)
                         {
                             Console.WriteLine("Title:\n" + Bloglista[i][0] + "\n");
                             Console.WriteLine("Blog:\n" + Bloglista[i][1] + "\n");
