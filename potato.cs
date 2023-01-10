@@ -39,15 +39,21 @@ namespace Bloog
                         }
                         break;
                     case 3:
+                        bool nybool = false;
                         Console.WriteLine("write a keyword or the title of the blog u wanna search: ");
                         search = Console.ReadLine();
-                        for (int i = 0; i > Bloglista.Count; i++)
+                        for (int i = 0; i < Bloglista.Count; i++)
                         {
                             if (Bloglista[i][0].Contains(search) == true)
                             {
-                                Console.WriteLine("Title:\n" + Bloglista[i][0] + "\n");
-                                Console.WriteLine("Blog:\n" + Bloglista[i][1] + "\n");
+                                Console.WriteLine("Namnet finns i vektor på indexplats " + i + "!");
+                                Console.WriteLine(" Sökningen lyckades!");
+                                nybool = true;
                             }
+                        }
+                        if (nybool == false)
+                        {
+                            Console.WriteLine("Sökordet hittades inte!!!");
                         }
 
                         break;
