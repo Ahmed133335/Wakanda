@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sött & Elegant</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="aktiviteter">
+        <!--På main elmentet kan jag ha de följande element; section, article, aside och footer-->
+        <header>
+            <nav class="navbar">
+                <!--länkar som tar mig till de resterande hemsidor-->
+                <!--Skapa en list-->
+                <ul> 
+                    <li><a href="index.html">Hemsida</a></li>
+                    <li><a href="Bröd&bakninger.html">Bröd&bakninger</a></li> 
+                    <li><a href="aktiviteter.html">Aktiviteter</a></li>
+                    <li><a href="Bokningar.html">Bokningar</a></li>  
+                    <li><a href="utbildning.html">Utbildning</a></li> 
+                    <li><a href="kontakt.html">Kontakt</a></li> 
+                </ul>
+            </nav>
+        </header>
+       <main> 
+            <section>
+                <h1>Välkommna till Sött & Elegant lokalal</h1>
+                <p>Lokalen kan bokas för aktiviteter som:</p>
+            </section>
+            <section>
+                <img src="Brollöpp-img/Bachelore.jpg" alt="Bröllopsmarskalk">
+                <img src="Brollöpp-img/Bachelorette.jpg" alt="Tärnor">
+            </section>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
